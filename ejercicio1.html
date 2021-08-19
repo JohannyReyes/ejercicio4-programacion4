@@ -1,0 +1,28 @@
+<html>
+<head>
+<title> Decimal </title>
+</head>
+
+<body>
+<script>
+var num;
+
+num=prompt("Escribe un numero decimal","");
+num=parseInt(num, 10);
+if(decimal(num)=="S")
+{alert(num+" parte decimal"); }
+else {alert(num+ " Parte entera ");}
+
+function decimal(x)
+{var resto;
+for (i=2; i<x-1;i++){
+resto= x % i;
+if ((resto==0 ) &&(x!=2))
+{return "N";} }
+return "S";}
+</script>
+</body>
+<lixa href="index.html">Atras</a></li>
+<li><a href="ejercicio2.html">Siguiente</a></li>
+
+</html>
